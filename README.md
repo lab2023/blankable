@@ -1,12 +1,12 @@
 # Blankable
 
-TODO: Write a gem description
+Adds blank slates to index view
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'Blankable'
+    gem 'blankable'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install Blankable
+    $ gem install blankable
 
 ## Usage
 
@@ -53,7 +53,7 @@ end
 
 ```haml
 # views/customers/index.html.haml
-= Blankable @customers
+= blankable @customers
 ```
 
 ## Contributing

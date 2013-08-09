@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'blankable/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Blankable"
+  spec.name          = "blankable"
   spec.version       = Blankable::VERSION
   spec.authors       = ["Muhammet DİLEK"]
   spec.email         = ["muhammet.dilek@lab2023.com"]

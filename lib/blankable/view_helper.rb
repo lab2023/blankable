@@ -1,6 +1,6 @@
 module Blankable
   module ViewHelper
-    def Blankable(contents)
+    def blankable(contents)
       if contents.size == 0
         render partial: 'blank'
       else
