@@ -63,3 +63,12 @@ end
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Credits
+
+- Blankable is maintained and funded by [lab2023 - information technologies](http://lab2023.com/)
+- The names and logos for lab2023 are trademarks of lab2023, inc.
+
+## License
+
+Copyright 2014 lab2023 – information technologies
