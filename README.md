@@ -29,7 +29,7 @@ end
 ```
 
 ```haml
-# views/customers/_grid.html.haml
+# views/customers/_list.html.haml
 %table
   %tr
     %th Name
