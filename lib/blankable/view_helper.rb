@@ -1,7 +1,12 @@
 module Blankable
   module ViewHelper
     def blankable(contents)
-      render partial: contents.size == 0 ? 'blank' : 'list'
+      if contents.is_a?(Integer)
+        size = contents
+      else
+        size = contents.size
+      end
+      render partial: size == 0 ? 'blank' : 'list'
     end
   end
 end
